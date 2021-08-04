@@ -18,7 +18,7 @@ interface IProduct {
     return (
         <div className="product-card">
             <img src= {Poster} alt={Title} />
-            <div className="title">
+            <div className="product-card-datay">
               <h1>{Title}</h1>
               <h2>{Year} [{imdbID}]</h2> 
               <h3>{Type}</h3>
